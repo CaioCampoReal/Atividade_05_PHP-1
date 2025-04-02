@@ -102,21 +102,29 @@ function exibirModalUrna($modo = 'criar', $dados = null) {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <style>
         .btn-custom {
-            background-color: #6c757d;
+            background-color:rgb(81, 78, 82);
             color: white;
         }
         .header {
-            background-color: #f8f9fa;
+            background-color:rgb(203, 202, 204);
             padding: 20px;
             margin-bottom: 30px;
             text-align: center;
+
         }
     </style>
 </head>
 
 <body>
-    <div class="header">
-        <h1>Lista de Urnas</h1>
+<div class="header ">
+        <div class="container">
+            <div style="text-align:start;">
+                <a href="../../index.php" class="btn btn-custom">
+                    <- Voltar
+                </a>
+            </div>
+            <h1>Lista de Urnas</h1>
+        </div>        
     </div>
 
     <div class="container mt-4">
